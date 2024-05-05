@@ -6,7 +6,7 @@ let person = {
     profession1: 'Cricketer',
     profession2: 'HockeyPlayer',
     profession3: 'RugbyPlayer',
-    profession4: 'Guitarist',
+    profession4: 'Guitari]jcjsst',
   },
   city: 'Durban',
 };
