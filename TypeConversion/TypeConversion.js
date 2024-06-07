@@ -23,3 +23,6 @@ console.log(typeof string);
 let num = '1';
 num = Boolean(num);
 console.log(num);
+
+let name = 'Tajinder Singh';
+console.log(name);
