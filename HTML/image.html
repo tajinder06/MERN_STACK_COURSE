@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image</title>
+  </head>
+  <body>
+    <a href="https://www.google.com">
+      <!--we can wrap our image in anchor tag too-->
+      <img
+        src="images/20210602_123548.jpg"
+        alt="this is an image"
+        width="100%"
+      />
+    </a>
+
+    <picture>
+      <source
+        media="(min-width:650px)"
+        srcset="
+          https://www.google.com/imgres?q=photos&imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1554080353-a576cf803bda%3Fq%3D80%26w%3D1000%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG98ZW58MHx8MHx8fDA%253D&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fphoto&docid=AgAT_yR1X6xrJM&tbnid=z-1n0e0ZEaZVgM&vet=12ahUKEwiehamTx8yGAxWHR2wGHbaCBesQM3oECGUQAA..i&w=1000&h=1500&hcb=2&ved=2ahUKEwiehamTx8yGAxWHR2wGHbaCBesQM3oECGUQAA
+        "
+      />
+    </picture>
+  </body>
+</html>
